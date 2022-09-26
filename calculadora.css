@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    background-image: linear-gradient(45deg,rgb(149, 177, 185),turquoise);
+    height: 100vh;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.calculadora{
+    position: absolute;
+    background-color: rgba(54, 134, 145, 0.7);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+#tela_calculadora{
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    text-align: right;
+    padding: 10px;
+}
+.botao_calculadora{
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgb(39, 39, 161);
+    border: none;
+    color: white;
+}
+.botao_calculadora:hover{
+    background-color: darkblue;
+}
+.botao_calculadora_0{
+    width: 108px;
+    height: 50px;
+    margin: 3px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgb(39, 39, 161);
+    border: none;
+    color: white;
+}
+.botao_calculadora_0:hover{
+    background-color: darkblue;
+}
+.botao_calculadora_1{
+    width: 50px;
+    height: 108px;
+    margin: 3px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgb(39, 39, 161);
+    border: none;
+    color: white;
+}
+.botao_calculadora_1:hover{
+    background-color: darkblue;
+}
